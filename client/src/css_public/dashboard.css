@@ -1,0 +1,58 @@
+.main_dashboard {
+  display: flex;
+  grid-gap: 3rem;
+  background-color: rgb(233, 235, 236);
+}
+.side_bar {
+  /* height: ; */
+  background-image: url("./images/sidebar-2.jpg");
+  background-size: cover;
+  filter:brightness(90%);
+  box-shadow: -1.2rem 1rem 3rem 1rem black;
+}
+.list_bar .nav-link {
+  color: rgb(0, 0, 0);
+  margin: 0 2.1rem 1rem 0;
+  padding: 1rem;
+}
+.list_bar .nav-link:hover {
+  background-color: rgba(113, 227, 255, 0.527);
+  margin: 0 2.1rem 1rem 0;
+  border-radius: 0.3rem;
+  padding: 1rem;
+  transition: 0.5s;
+  color: rgb(0, 0, 0)
+}
+.content_dashboard {
+  overflow: auto;
+  width: 100%;
+  height: 100vh;
+  padding-right: 3rem;
+}
+.card {
+  width: 14rem;
+  margin-top: 3rem;
+}
+button {
+    border-radius: 0.3rem !important;
+    padding: 0.5rem !important;
+    background-color: rgb(255, 80, 80);
+    color: rgb(235, 246, 255);
+    box-shadow: 3px 3px 10px 2px rgba(37, 37, 37, 0.63);
+}
+button:hover {
+  background-color:rgb(255, 181, 181);
+  color: rgb(61, 3, 8);
+  transform: rotate(5deg) !important;
+  transition: 0.5s !important;
+}
+ input, optgroup, select, textarea {
+  margin: 0.4rem !important;
+
+}
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused) {
+  height: 10rem;
+}
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+  height: 10rem;
+}
